@@ -12,4 +12,4 @@ When adding assets, include an underscore before the file name to prevent their 
 
 Any Tweets, similar content that may be deleted/taken down, try to back it up with a screenshot!
 
-Wikilinks are formatted with [[double brackets]]. Backlinks will happen automatically.
+Wikilinks are formatted with [[double brackets]], and paths must relatively scoped scoped (e.g. [[./linkedPost]]). Backlinks will happen automatically. You can rename via [[Other post|Link text]].
