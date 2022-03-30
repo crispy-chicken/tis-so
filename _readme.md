@@ -8,13 +8,10 @@ Now go into your `.git/config` file. Make sure the following is set:
 	url = git@github.com:suspendedreason/tis-so.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 	pushurl = git@github.com:suspendedreason/tis-so.git
-[remote "livesite"]
-	url = git@github.com:suspendedreason/tis-so.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
 	pushurl = https://blot.im/clients/git/end/tis.git
 ```
 
-You're welcome to name your remotes whatever the hell you want. This setup will ensure that `git push` updates the Github repo, and `git push livesite` updates the Blot blog.
+This will ensure that `git push` dispatches to both the Blot site and the GH repo.
 
 # Posting
 
