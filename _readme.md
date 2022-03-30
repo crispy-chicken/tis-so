@@ -4,7 +4,7 @@ For some reason TBD, the standard naming system does not suffice for scheduling,
 
 Metadata format:
 ```
-Date: YYMMDD
+Date: YYYYMMDD
 Tags: separated by commas, lowercase, Except For Proper Nouns
 ```
 
